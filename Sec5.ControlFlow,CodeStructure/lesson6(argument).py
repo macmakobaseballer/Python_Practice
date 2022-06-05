@@ -45,3 +45,36 @@ print(r)
 r = test_func(100)
 print(r)
 
+#　位置引数のタプル化
+def say_something(word,*args):
+    print(word)
+    for arg in args:
+        print(arg)
+
+say_something('Hi','Mike','Nancy')
+
+## あまり使わない
+# t = ('Mike','Nancy')
+# say_something('Hi!', *t )
+
+# キーワード引数による辞書化
+def menu(**kwargs):
+    print(kwargs)
+    for k,v in kwargs.items():
+        print(k,v)
+
+# menu(entree='beef',drink='wine')
+
+d = {
+    'entree': 'beef',
+    'drink': 'wine',
+    'dessert':'tiramisu'
+}
+menu(**d)
+
+def menu2(food,*args,**kwargs):
+    print(food)
+    print(args)
+    print(kwargs)
+
+menu2('banana','apple','orange',entree='beef',drink='coffee')
