@@ -1,7 +1,4 @@
 # 辞書型
-from cgi import print_directory
-
-
 d = {'x': 10, 'y': 20 }
 print(type(d))
 print(d['x'])
@@ -43,6 +40,8 @@ print('*****x=yとした場合*****')
 x = {'a': 1}
 y = x
 y['a'] = 1000
+print(id(x))
+print(id(y))
 print('x→',x )
 print('y→',y)
 
@@ -50,5 +49,7 @@ print('*****x.copyとした場合*****')
 x = {'a': 1}
 y = x.copy()
 y['a'] = 1000
+print(id(x))
+print(id(y))
 print('x→',x )
 print('y→',y)

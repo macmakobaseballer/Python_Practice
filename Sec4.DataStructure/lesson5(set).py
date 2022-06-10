@@ -9,7 +9,7 @@ print(b-a)
 print(a&b)
 print(a|b)
 print(a^b)
-
+print('###############')
 # 集合のメソッド
 s = { 1, 2, 3, 4, 5}
 # s[0] エラー
@@ -19,7 +19,7 @@ s.remove(6)
 print(s)
 s.clear()
 print(s)
-
+print('###############')
 #　集合の使い所
 my_friends = { 'a', 'c', 'd', 'f' }
 A_friends = { 'e' , 'f', 'g' }

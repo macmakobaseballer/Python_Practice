@@ -8,7 +8,7 @@ def outer(a,b):
     print(r)
 
 outer(1,2)
-
+print('###############')
 # クロージャ
 def circle_area_func(pi):
 

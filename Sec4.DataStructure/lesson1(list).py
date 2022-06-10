@@ -12,6 +12,7 @@ print(n)
 del n[0]
 print(n)
 del n
+print('############')
 n = [ 1, 2, 2, 2, 3]
 print(n)
 n.remove(2)
@@ -19,7 +20,7 @@ print(n)
 n.remove(2)
 n.remove(2)
 print(n)
-
+print('############')
 a = [ 1, 2, 3, 4, 5]
 b = [ 6, 7, 8, 9, 10]
 print(a,b)
@@ -27,14 +28,17 @@ x = a + b
 print(x)
 a += b
 print(a)
+print('############')
+
 x = [ 1, 2, 3, 4, 5]
 y = [ 6, 7, 8, 9, 10]
 x.extend(y)
 
+print('############')
 
 r = [ 1, 2, 3, 4, 5, 1, 2, 3]
 print(r.index(3))
-print(r.index(3 ,3 ))
+print(r.index(3 ,3))
 
 print(r.count(3))
 
@@ -48,7 +52,7 @@ print(r)
 r.reverse()
 print(r)
 
-
+print('############')
 s = 'My name is Mike.'
 to_split = s.split(' ')
 print(to_split)

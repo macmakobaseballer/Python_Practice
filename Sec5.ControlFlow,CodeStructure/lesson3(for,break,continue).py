@@ -10,16 +10,16 @@ while i < len(num_list):
 # forループでの表記
 for i in num_list:
     print(i)
-
+print('###############')
 for s in 'abcde':
     print(s)
-
+print('###############')
 # continue文
 for fruits in ['apple','orange','banana','grape']:
     if fruits == 'banana':
         continue
     print(fruits)
-
+print('###############')
 # for else文
 for fruits in ['apple','orange','banana','grape']:
     print(fruits)

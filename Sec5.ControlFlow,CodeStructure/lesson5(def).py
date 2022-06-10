@@ -8,7 +8,7 @@ say_something()
 f = say_something
 f()
 print(type(f))
-
+print('###############')
 # 戻り値
 def calc_tax():
     price = 100
@@ -18,7 +18,7 @@ def calc_tax():
 
 result = calc_tax()
 print(result)
-
+print('###############')
 # 引数
 def what_is_this(color):
     if color == 'red':
